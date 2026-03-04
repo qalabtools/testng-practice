@@ -1,4 +1,9 @@
+# Maven build directory
+
 target/
+
+# Maven temporary / release files
+
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -7,11 +12,35 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
-# https://maven.apache.org/wrapper/#usage-without-binary-jar
+
+# Maven wrapper (ignored if you don't want the binary jar)
+
 .mvn/wrapper/maven-wrapper.jar
 
-# Eclipse m2e generated files
-# Eclipse Core
+# Eclipse project files
+
 .project
-# JDT-specific (Eclipse Java Development Tools)
 .classpath
+.settings/
+
+# Logs
+
+*.log
+
+# Compiled class files
+
+*.class
+
+# Temporary files
+
+*.tmp
+*.swp
+
+# Eclipse workspace cache (rare inside project but safe to ignore)
+
+.metadata/
+
+# OS generated files
+
+.DS_Store
+Thumbs.db
